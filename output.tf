@@ -3,5 +3,5 @@ output "security_group_id" {
 }
 
 output "security_group_name" {
-    value = "${aws_security_group.basic_sg.security_group_name}"
+    value = "${aws_security_group.basic_sg.name}"
 }
